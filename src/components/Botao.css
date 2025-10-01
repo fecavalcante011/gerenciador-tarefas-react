@@ -1,0 +1,51 @@
+.botao {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.botao.primary {
+  background: #3498db;
+  color: white;
+}
+
+.botao.primary:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.botao.success {
+  background: #27ae60;
+  color: white;
+}
+
+.botao.success:hover {
+  background: #219a52;
+  transform: translateY(-2px);
+}
+
+.botao.error {
+  background: #e74c3c;
+  color: white;
+}
+
+.botao.error:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+}
+
+.botao.desabilitado {
+  background: #bdc3c7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.botao.desabilitado:hover {
+  transform: none;
+}
